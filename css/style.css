@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  margin:auto;
+  width:100%;
+}
+
+#navigation{
+  margin:10px;
+  position: absolute;
+
+}
+ #navigation .navbar-brand{
+   margin-left:1rem;
+   padding: 2px;
+}
+
+#navbarNav .nav-item{
+  margin-right: 1rem;
+}
+
+.nav-item .nav-link{
+  font-size: 20px;
+  padding: 2px;
+  color:#000;
+}
+
+.imagecontainer img{
+  width:100vw;
+  height:100vh;
+}
+
+#section{
+  position: relative;
+  width:100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+ #section .heading{
+   color:#000;
+   text-align: center;
+    font-size: 40px;
+    font-family:sans-serif;
+    font-weight: 800;
+    padding: 20px;
+    margin:15px;
+    z-index: 5;
+
+ }
+
+ .sub{
+   font-size: 30px;
+ }
+
+ .imagecontainer{
+  position: absolute;
+  top: 0
+  left:0
+  width:100%;
+  opacity: 0.9;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  opacity: 0.5;
+}
+
+#about {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.img-responsive{
+  width:100%;
+  height:100%;
+
+}
+
+#message{
+  text-align: center;
+  padding: 100px 50px;
+  background: #555;
+  background-size: cover;
+  color:#fff;
+  font-size: 30px;
+}
+
+#project-section {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.class-side{
+  display: flex;
+  flex-direction: row-reverse;
+}
